@@ -1,0 +1,50 @@
+{
+  "name": "@adametherzlab/cron-describe",
+  "version": "0.1.0",
+  "description": "CLI to parse, validate, and explain cron expressions in human-readable text.",
+  "type": "module",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "test": "bun test",
+    "build": "bun build src/index.ts --outdir dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.5.0"
+  },
+  "keywords": [
+    "typescript",
+    "bun",
+    "typescript",
+    "bun",
+    "cli",
+    "devops",
+    "cron",
+    "scheduler",
+    "tool"
+  ],
+  "author": "AdametherzLab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdametherzLab/cron-describe.git"
+  },
+  "homepage": "https://github.com/AdametherzLab/cron-describe#readme",
+  "bugs": {
+    "url": "https://github.com/AdametherzLab/cron-describe/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
